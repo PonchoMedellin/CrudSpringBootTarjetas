@@ -30,7 +30,7 @@ public class Tarjetas {
 	@Column(name ="NUMTARJETA",columnDefinition="NVARCHAR2(100)")
 	private String numTarjeta;
 	private Date fechaVencimiento;
-	private int ccv;
+	private int cvv;
 	private double saldo;
 	
 
